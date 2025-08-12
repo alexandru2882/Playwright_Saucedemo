@@ -14,5 +14,3 @@ test('sort products by price low to high', async ({ page }) => {
   const sorted = [...numeric].sort((a,b) => a - b);
   expect(numeric).toEqual(sorted);
 });
-
-
